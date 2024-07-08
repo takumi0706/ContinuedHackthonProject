@@ -1,4 +1,4 @@
 ### Database file ###
-# if there are data, log file, docker server will not start.
+
 data/
 log/
