@@ -42,9 +42,6 @@ services:
       - ./mysql/db.env
     tty: true
     working_dir: /app
-#    ↓Dokcerfileでコピーするため不要(逆にあると上書きになってjarが見つからない)
-#    volumes:
-#      - ../springboot:/app
     ports:
       - 8080:8080 #アプリケーション用
       - 5050:5050 #デバッグ用
